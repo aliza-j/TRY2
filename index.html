@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
-  <title>birthday mybabyy</title>
+  <title>birthday mybaby</title>
   <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;600&display=swap" rel="stylesheet">
   <style>
     * {
@@ -150,7 +150,7 @@
 
   <div class="container">
     <img src="./image.png" alt="Couple Photo" class="image" />
-    <div class="title">hihi coba tebak passwordnya, i bet u know!</div>
+    <div class="title">Password please !!</div>
     <div class="display" id="display">
       <span class="placeholder">○</span>
       <span class="placeholder">○</span>
@@ -171,7 +171,7 @@
       <button onclick="press('0')">0</button>
       <div></div>
     </div>
-    <div class="note">clue: ur birthdate 💕</div>
+    <div class="note">your special day 💕</div>
   </div>
 
   <script>
@@ -186,8 +186,8 @@
 
       if (input.length === 4) {
         setTimeout(() => {
-          if (input === "0000") { // ganti password sesuai kebutuhan
-            window.location.href = "aaa.html";
+          if (input === "2504") {
+            window.location.href = "main.html";
           } else {
             display.innerHTML = `<span class="placeholder">s</span><span class="placeholder">a</span><span class="placeholder">l</span><span class="placeholder">a</span>`;
             input = "";
@@ -212,7 +212,7 @@
       for (let i = 0; i < numHearts; i++) {
         const heart = document.createElement('div');
         heart.classList.add('floating-heart');
-        heart.innerText = '💗';
+        heart.innerText = '🩵';
         heart.style.top = Math.random() * 100 + 'vh';
         heart.style.left = Math.random() * 100 + 'vw';
         heart.style.animationDuration = (1.5 + Math.random() * 2.5) + 's';
